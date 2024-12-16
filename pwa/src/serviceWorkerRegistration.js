@@ -10,6 +10,8 @@
 // To learn more about the benefits of this model and instructions on how to
 // opt-in, read https://cra.link/PWA
 
+
+console.log("Inside sevice worker registration")
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     // [::1] is the IPv6 localhost address.
@@ -115,6 +117,7 @@ function checkValidServiceWorker(swUrl, config) {
           });
         });
       } else {
+        console.log("Serviceworker is found")
         // Service worker found. Proceed as normal.
         registerValidSW(swUrl, config);
       }

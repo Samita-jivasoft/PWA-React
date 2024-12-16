@@ -7,12 +7,12 @@ function App() {
     <div className="App">
       <header>
         <h1>
-          PWA Application
+          PWA Test Application
         </h1>
       </header>
-        <div>
+        {/* <div>
           <video  src={video} controls height={200}/>
-        </div>
+        </div> */}
     </div>
   );
 }
